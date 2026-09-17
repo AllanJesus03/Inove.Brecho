@@ -1,38 +1,67 @@
-// Produtos demonstrativos. Para trocar, basta editar este arquivo.
-// Imagens ficam em public/images/. Nomeie suas fotos e atualize o caminho aqui.
+// Produtos de exemplo usados como fallback quando a API não está disponível.
+// Os produtos reais ficam em server/data/products.json e são gerenciados
+// pelo painel admin (#/admin). Imagens estáticas ficam em public/images/.
 
 const products = [
   {
     id: 'produto-1',
     name: 'Jaqueta Vintage',
+    category: 'roupas',
+    size: 'M',
+    shoeSize: '',
+    condition: 'semi-novo',
+    brand: '',
+    color: 'Preto',
+    price: 89.9,
+    salePrice: null,
     description: 'Peça selecionada • Tamanho M',
-    price: 'R$ 89,90',
-    image: '/images/produto1.svg',
-    alt: 'Jaqueta vintage disponível no Brechó Inove'
+    images: ['/images/produto1.svg'],
+    status: 'disponivel'
   },
   {
     id: 'produto-2',
     name: 'Camisa Social Slim',
+    category: 'roupas',
+    size: 'G',
+    shoeSize: '',
+    condition: 'semi-novo',
+    brand: '',
+    color: 'Branco',
+    price: 49.9,
+    salePrice: null,
     description: 'Peça selecionada • Tamanho G',
-    price: 'R$ 49,90',
-    image: '/images/produto2.svg',
-    alt: 'Camisa social slim disponível no Brechó Inove'
+    images: ['/images/produto2.svg'],
+    status: 'disponivel'
   },
   {
     id: 'produto-3',
     name: 'Vestido Midi Elegante',
+    category: 'roupas',
+    size: 'P',
+    shoeSize: '',
+    condition: 'novo',
+    brand: '',
+    color: 'Roxo',
+    price: 79.9,
+    salePrice: null,
     description: 'Peça selecionada • Tamanho P',
-    price: 'R$ 79,90',
-    image: '/images/produto3.svg',
-    alt: 'Vestido midi elegante disponível no Brechó Inove'
+    images: ['/images/produto3.svg'],
+    status: 'disponivel'
   },
   {
     id: 'produto-4',
     name: 'Blazer Alfaiataria',
+    category: 'roupas',
+    size: 'M',
+    shoeSize: '',
+    condition: 'semi-novo',
+    brand: '',
+    color: 'Preto',
+    price: 119.9,
+    salePrice: 99.9,
     description: 'Peça selecionada • Tamanho M',
-    price: 'R$ 119,90',
-    image: '/images/produto4.svg',
-    alt: 'Blazer de alfaiataria disponível no Brechó Inove'
+    images: ['/images/produto4.svg'],
+    status: 'disponivel'
   }
 ]
 

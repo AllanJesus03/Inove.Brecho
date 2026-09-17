@@ -1,0 +1,67 @@
+.catalog {
+  padding: 6.5rem 0 4rem;
+  min-height: 80vh;
+}
+
+.catalog-head {
+  margin-bottom: 1.5rem;
+}
+
+.catalog-subtitle {
+  color: #71717A;
+  font-size: 0.95rem;
+  margin-top: 0.35rem;
+}
+
+.catalog-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin-bottom: 2rem;
+}
+
+.catalog-chip {
+  background: #f4f4f5;
+  color: #3f3f46;
+  border: none;
+  border-radius: 999px;
+  padding: 0.45rem 1rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.catalog-chip:hover {
+  background: #e4e4e7;
+}
+
+.catalog-chip.active {
+  background: var(--primary);
+  color: var(--white);
+}
+
+.catalog-status {
+  text-align: center;
+  color: #71717A;
+  padding: 4rem 0;
+  font-size: 1.05rem;
+}
+
+.catalog-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+}
+
+@media (min-width: 640px) {
+  .catalog-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 960px) {
+  .catalog-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

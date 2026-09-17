@@ -22,6 +22,9 @@ export default function Footer() {
               {item.label}
             </a>
           ))}
+          <a className="footer-admin" href="#/admin">
+            Admin
+          </a>
         </nav>
 
         <p className="footer-copy">© 2026 Brechó Inove. Todos os direitos reservados.</p>
