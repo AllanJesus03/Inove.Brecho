@@ -30,7 +30,9 @@ const MAX_IMAGES = 3
 const PRODUCTS_KEY = 'brecho:productos'
 
 const DATA_DIR = path.join(__dirname, 'data')
-const UPLOADS_DIR = path.join(__dirname, 'uploads')
+export const UPLOADS_DIR = process.env.UPLOADS_DIR
+  ? path.resolve(process.env.UPLOADS_DIR)
+  : path.join(__dirname, 'uploads')
 const PRODUCTS_FILE = path.join(DATA_DIR, 'products.json')
 
 const CATEGORY_VALUES = ['roupas', 'sapatos', 'acessorios', 'bolsas', 'outros']

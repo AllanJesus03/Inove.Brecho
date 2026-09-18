@@ -12,7 +12,8 @@ import {
   putProducts,
   uploadImage,
   seedIfEmpty,
-  isCloud
+  isCloud,
+  UPLOADS_DIR
 } from './storage.js'
 
 // --- VALORES VÁLIDOS -----------------------------------------------------
@@ -214,10 +215,9 @@ app.post('/api/upload', requireAuth, async (req, res) => {
   }
 })
 
-// Para manter o comportamento local (uploads servidos estaticamente em dev),
-// o server/index.js registra express.static; aqui deixamos o path exposto.
-export const UPLOADS_DIR_PATH =
-  process.env.UPLOADS_DIR || new URL('./uploads', import.meta.url).pathname
+// Path de uploads — fonte única vem do storage.js (que grava os arquivos):
+// o server/index.js registra o express.static com ELE e nós o reexportamos.
+export const UPLOADS_DIR_PATH = process.env.UPLOADS_DIR || UPLOADS_DIR
 
 // ==================== SEED IDEMPOTENTE =================================
 let seeding = false

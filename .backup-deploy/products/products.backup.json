@@ -1,0 +1,103 @@
+[
+  {
+    "id": "produto-1",
+    "name": "Jaqueta Vintage",
+    "category": "roupas",
+    "size": "M",
+    "shoeSize": "",
+    "condition": "semi-novo",
+    "brand": "",
+    "color": "Preto",
+    "price": 89.9,
+    "salePrice": null,
+    "description": "Peça selecionada • Tamanho M",
+    "images": [
+      "/images/produto1.svg"
+    ],
+    "image": "/images/produto1.svg",
+    "alt": "Jaqueta Vintage — Brechó Inove",
+    "status": "disponivel",
+    "createdAt": 1789643062800
+  },
+  {
+    "id": "produto-2",
+    "name": "Camisa Social Slim",
+    "category": "roupas",
+    "size": "G",
+    "shoeSize": "",
+    "condition": "semi-novo",
+    "brand": "",
+    "color": "Branco",
+    "price": 49.9,
+    "salePrice": null,
+    "description": "Peça selecionada • Tamanho G",
+    "images": [
+      "/images/produto2.svg"
+    ],
+    "image": "/images/produto2.svg",
+    "alt": "Camisa Social Slim — Brechó Inove",
+    "status": "disponivel",
+    "createdAt": 1789643062800
+  },
+  {
+    "id": "produto-3",
+    "name": "Vestido Midi Elegante",
+    "category": "roupas",
+    "size": "P",
+    "shoeSize": "",
+    "condition": "novo",
+    "brand": "",
+    "color": "Roxo",
+    "price": 79.9,
+    "salePrice": null,
+    "description": "Peça selecionada • Tamanho P",
+    "images": [
+      "/images/produto3.svg"
+    ],
+    "image": "/images/produto3.svg",
+    "alt": "Vestido Midi Elegante — Brechó Inove",
+    "status": "disponivel",
+    "createdAt": 1789643062800
+  },
+  {
+    "id": "produto-4",
+    "name": "Blazer Alfaiataria",
+    "category": "roupas",
+    "size": "M",
+    "shoeSize": "",
+    "condition": "semi-novo",
+    "brand": "",
+    "color": "Preto",
+    "price": 119.9,
+    "salePrice": 99.9,
+    "description": "Peça selecionada • Tamanho M",
+    "images": [
+      "/images/produto4.svg"
+    ],
+    "image": "/images/produto4.svg",
+    "alt": "Blazer Alfaiataria — Brechó Inove",
+    "status": "vendido",
+    "createdAt": 1789643062800
+  },
+  {
+    "id": "produto-1789643417593",
+    "name": "Jaqueta Balihai",
+    "category": "roupas",
+    "size": "GG",
+    "shoeSize": "",
+    "condition": "semi-novo",
+    "brand": "Balihai",
+    "color": "preto nao gosto BRANCO",
+    "price": 140,
+    "salePrice": null,
+    "description": "peça selecionada",
+    "images": [
+      "/uploads/img-1789643417476.jpg",
+      "/uploads/img-1789643417548.jpg"
+    ],
+    "image": "/uploads/img-1789643417476.jpg",
+    "alt": "Jaqueta Balihai — Brechó Inove",
+    "status": "disponivel",
+    "createdAt": 1789643417593
+  }
+]
